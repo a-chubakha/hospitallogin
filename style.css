@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  background-image: url(images/hospital-bg.jpg);
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+}
+
+.account {
+  color: gray;
+  font-weight: bold;
+}
+
+#forg-pass {
+  font-style: italic;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+#main {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  padding: 20px 50px;
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 30px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+img:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#login {
+  background-color: lightblue;
+  padding: 20px 100px;
+  border: 3px solid darkblue;
+  border-radius: 20px;
+  margin: 50px 10px;
+}
+
+.empass {
+  letter-spacing: 3px;
+}
+
+#password {
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#password:hover {
+  background-color: #2b6eb1;
+}
+
+#email {
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#email:hover {
+  background-color: #2b6eb1;
+}
+
+button {
+  font-size: 19px;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
